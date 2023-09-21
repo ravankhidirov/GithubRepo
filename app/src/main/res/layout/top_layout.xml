@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/topLinearLayout"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lastDay"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Last day"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#26577C"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lastWeek"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Last week"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#26577C"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lastMonth"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Last month"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#26577C"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+
+
+
+
+
+
+</LinearLayout>
