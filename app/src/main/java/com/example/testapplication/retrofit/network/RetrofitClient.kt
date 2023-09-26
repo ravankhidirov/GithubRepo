@@ -1,7 +1,7 @@
 package com.example.testapplication.retrofit.network
 
-import com.example.testapplication.retrofit.Api.Api
-import com.example.testapplication.retrofit.Constants.Constants
+import com.example.testapplication.retrofit.api.Api
+import com.example.testapplication.retrofit.constants.Constants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

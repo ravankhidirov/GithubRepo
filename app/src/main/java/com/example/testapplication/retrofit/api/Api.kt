@@ -1,9 +1,9 @@
-package com.example.testapplication.retrofit.Api
+package com.example.testapplication.retrofit.api
 
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
-import com.example.testapplication.retrofit.Result
+import com.example.testapplication.retrofit.datamodel.Result
 import retrofit2.http.Headers
 
 interface Api {

@@ -1,4 +1,4 @@
-package com.example.testapplication.retrofit.Constants
+package com.example.testapplication.retrofit.constants
 
 class Constants {
     companion object{
